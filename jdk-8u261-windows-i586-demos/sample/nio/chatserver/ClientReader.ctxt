@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ClientReader
+comment0.text=\r\n\ Handles\ a\ cycle\ of\ reading\ /\ writing\ on\ the\ {@code\ Client}.\r\n
+comment1.params=chatServer\ callback
+comment1.target=ClientReader(ChatServer,\ DataReader)
+comment2.params=
+comment2.target=boolean\ acceptsMessages()
+comment3.params=client
+comment3.target=void\ run(Client)
+comment3.text=\r\n\ Runs\ a\ cycle\ of\ doing\ a\ beforeRead\ action\ and\ then\ enqueuing\ a\ new\r\n\ read\ on\ the\ client.\ Handles\ closed\ channels\ and\ errors\ while\ reading.\r\n\ If\ the\ client\ is\ still\ connected\ a\ new\ round\ of\ actions\ are\ called.\r\n
+comment4.params=result\ buffer
+comment4.target=void\ completed(java.lang.Integer,\ java.nio.ByteBuffer)
+comment5.params=exc\ buffer
+comment5.target=void\ failed(java.lang.Throwable,\ java.nio.ByteBuffer)
+numComments=6

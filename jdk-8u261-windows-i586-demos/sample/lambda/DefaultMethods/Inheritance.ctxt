@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Inheritance
+comment0.text=\r\n\ The\ sample\ illustrates\ rules\ to\ resolve\ conflicts\ between\ inheritance\r\n\ candidates\ with\ <b>default\ methods</b>.\ There\ are\ two\ simple\ rules\:\r\n\ <ul>\r\n\ <li>Class\ wins.\ If\ the\ superclass\ has\ a\ concrete\ or\ abstract\ declaration\ of\r\n\ this\ method,\ then\ it\ is\ preferred\ over\ all\ defaults.</li>\r\n\ <li>Subtype\ wins.\ If\ an\ interface\ extends\ another\ interface,\ and\ both\ provide\r\n\ a\ default,\ then\ the\ more\ specific\ interface\ wins.\ </li>\r\n\ </ul>\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Illustrate\ behavior\ of\ the\ classes\:\ {@link\ Tuna}\ and\ {@link\ Duck}\r\n\r\n\ @param\ args\ command\ line\ arguments\r\n
+numComments=2

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MessageReader
+comment0.text=\r\n\ Writes\ all\ messages\ in\ our\ buffer\ to\ the\ other\ clients\r\n\ and\ appends\ new\ data\ read\ from\ the\ socket\ to\ our\ buffer\r\n
+comment1.params=chatServer
+comment1.target=MessageReader(ChatServer)
+comment2.params=
+comment2.target=boolean\ acceptsMessages()
+comment3.params=client
+comment3.target=void\ beforeRead(Client)
+comment3.text=\r\n\ Write\ all\ full\ messages\ in\ our\ buffer\ to\r\n\ the\ other\ clients\r\n\r\n\ @param\ client\ the\ client\ to\ read\ messages\ from\r\n
+comment4.params=client\ buffer\ bytes
+comment4.target=void\ onData(Client,\ java.nio.ByteBuffer,\ int)
+comment4.text=\r\n\ Append\ the\ read\ buffer\ to\ the\ clients\ message\ buffer\r\n\ @param\ client\ the\ client\ to\ append\ messages\ to\r\n\ @param\ buffer\ the\ buffer\ we\ received\ from\ the\ socket\r\n\ @param\ bytes\ the\ number\ of\ bytes\ read\ into\ the\ buffer\r\n
+numComments=5

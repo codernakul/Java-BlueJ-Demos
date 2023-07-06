@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=URLDumper
+comment0.text=\r\n\ A\ simple\ example\ to\ illustrate\ using\ a\ URL\ to\ access\ a\ resource\r\n\ and\ then\ store\ the\ result\ to\ a\ File.\r\n\ <P>\r\n\ Any\ type\ of\ URL\ can\ be\ used\:\ \ http,\ https,\ ftp,\ etc.\r\n\r\n\ @author\ Brad\ R.\ Wetmore\r\n\ @author\ Mark\ Reinhold\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

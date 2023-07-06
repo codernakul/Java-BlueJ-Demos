@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ProgressBarDemo()
+comment1.params=evt
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\r\n\ Invoked\ when\ the\ user\ presses\ the\ start\ button.\r\n
+comment2.params=evt
+comment2.target=void\ propertyChange(java.beans.PropertyChangeEvent)
+comment2.text=\r\n\ Invoked\ when\ task's\ progress\ property\ changes.\r\n
+comment3.params=
+comment3.target=void\ createAndShowGUI()
+comment3.text=\r\n\ Create\ the\ GUI\ and\ show\ it.\ As\ with\ all\ GUI\ code,\ this\ must\ run\r\n\ on\ the\ event-dispatching\ thread.\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment5.params=
+comment5.target=void\ run()
+numComments=6

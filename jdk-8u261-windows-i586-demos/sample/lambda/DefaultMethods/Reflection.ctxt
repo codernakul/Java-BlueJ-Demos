@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Reflection
+comment0.text=\r\n\ The\ code\ sample\ illustrates\ changes\ in\ the\ reflection\ API\ linked\r\n\ <b>default\ methods</b>.\ Since\ Java\ SE\ 8,\ a\ new\ method\ is\ added\ into\ the\ class\r\n\ <b><code>java.lang.reflect.Method</code></b>,\ with\ which\ you\ can\ reflectively\r\n\ determine\ whether\ or\ not\ a\ default\ method\ provided\ by\ an\ interface\r\n\ (<b><code>Method.isDefault()</code></b>).\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Illustrate\ the\ usage\ of\ the\ method\ java.lang.reflect.Method.isDefault()\r\n\r\n\ @param\ args\ command-line\ arguments\r\n\ @throws\ NoSuchMethodException\ internal\ demo\ error\r\n
+numComments=2

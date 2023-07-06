@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Copy
+comment0.text=\r\n\ Sample\ code\ that\ copies\ files\ in\ a\ similar\ manner\ to\ the\ cp(1)\ program.\r\n
+comment1.params=file
+comment1.target=boolean\ okayToOverwrite(java.nio.file.Path)
+comment1.text=\r\n\ Returns\ {@code\ true}\ if\ okay\ to\ overwrite\ a\ \ file\ ("cp\ -i")\r\n
+comment2.params=source\ target\ prompt\ preserve
+comment2.target=void\ copyFile(java.nio.file.Path,\ java.nio.file.Path,\ boolean,\ boolean)
+comment2.text=\r\n\ Copy\ source\ file\ to\ target\ location.\ If\ {@code\ prompt}\ is\ true\ then\r\n\ prompt\ user\ to\ overwrite\ target\ if\ it\ exists.\ The\ {@code\ preserve}\r\n\ parameter\ determines\ if\ file\ attributes\ should\ be\ copied/preserved.\r\n
+comment3.params=
+comment3.target=void\ usage()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

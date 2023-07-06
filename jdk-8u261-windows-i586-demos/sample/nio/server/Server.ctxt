@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Server
+comment0.text=\r\n\ The\ main\ server\ base\ class.\r\n\ <P>\r\n\ This\ class\ is\ responsible\ for\ setting\ up\ most\ of\ the\ server\ state\r\n\ before\ the\ actual\ server\ subclasses\ take\ over.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=port\ backlog\ secure
+comment1.target=Server(int,\ int,\ boolean)
+comment2.params=
+comment2.target=void\ createSSLContext()
+comment2.text=\r\n\ If\ this\ is\ a\ secure\ server,\ we\ now\ setup\ the\ SSLContext\ we'll\r\n\ use\ for\ creating\ the\ SSLEngines\ throughout\ the\ lifetime\ of\r\n\ this\ process.\r\n
+comment3.params=
+comment3.target=void\ runServer()
+comment4.params=
+comment4.target=void\ usage()
+comment5.params=args
+comment5.target=Server\ createServer(java.lang.String[])
+comment5.text=\r\n\ Parse\ the\ arguments,\ decide\ what\ type\ of\ server\ to\ run,\r\n\ see\ if\ there\ are\ any\ defaults\ to\ change.\r\n
+comment6.params=i\ len
+comment6.target=void\ checkArgs(int,\ int)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

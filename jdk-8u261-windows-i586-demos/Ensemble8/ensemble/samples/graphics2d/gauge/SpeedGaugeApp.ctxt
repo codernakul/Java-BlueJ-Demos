@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=SpeedGaugeApp
+comment0.text=\r\n\ A\ sample\ that\ demonstrates\ a\ simple\ gauge.\r\n\r\n\ @sampleName\ Speed\ Gauge\r\n\ @preview\ preview.png\r\n\ @embedded\r\n\ @see\ javafx.scene.image.Image\r\n\ @see\ javafx.scene.image.ImageView\r\n
+comment1.params=
+comment1.target=javafx.scene.Parent\ createContent()
+comment2.params=l
+comment2.target=void\ handle(long)
+comment3.params=stage
+comment3.target=void\ start(javafx.stage.Stage)
+comment4.params=
+comment4.target=void\ stop()
+comment5.params=
+comment5.target=void\ play()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ @param\ args\ the\ command\ line\ arguments\r\n
+numComments=7

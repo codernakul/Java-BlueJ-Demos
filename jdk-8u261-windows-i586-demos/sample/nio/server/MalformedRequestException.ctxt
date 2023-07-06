@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MalformedRequestException
+comment0.text=\r\n\ Exception\ class\ used\ when\ a\ request\ can't\ be\ properly\ parsed.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=
+comment1.target=MalformedRequestException()
+comment2.params=msg
+comment2.target=MalformedRequestException(java.lang.String)
+comment3.params=x
+comment3.target=MalformedRequestException(java.lang.Exception)
+numComments=4

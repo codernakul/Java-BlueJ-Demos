@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=StringContent
+comment0.text=\r\n\ A\ Content\ type\ that\ provides\ for\ transferring\ Strings.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=c\ t
+comment1.target=StringContent(java.lang.CharSequence,\ java.lang.String)
+comment2.params=c
+comment2.target=StringContent(java.lang.CharSequence)
+comment3.params=x
+comment3.target=StringContent(java.lang.Exception)
+comment4.params=
+comment4.target=java.lang.String\ type()
+comment5.params=
+comment5.target=void\ encode()
+comment6.params=
+comment6.target=long\ length()
+comment7.params=
+comment7.target=void\ prepare()
+comment8.params=cio
+comment8.target=boolean\ send(ChannelIO)
+comment9.params=
+comment9.target=void\ release()
+numComments=10

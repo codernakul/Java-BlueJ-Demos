@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Dispatcher1
+comment0.text=\r\n\ A\ single-threaded\ dispatcher.\r\n\ <P>\r\n\ When\ a\ SelectionKey\ is\ ready,\ it\ dispatches\ the\ job\ in\ this\r\n\ thread.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=
+comment1.target=Dispatcher1()
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ dispatch()
+comment4.params=ch\ ops\ h
+comment4.target=void\ register(java.nio.channels.SelectableChannel,\ int,\ Handler)
+numComments=5

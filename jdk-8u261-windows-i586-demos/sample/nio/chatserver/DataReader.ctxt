@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=DataReader
+comment1.params=client
+comment1.target=void\ beforeRead(Client)
+comment2.params=client\ buffer\ bytes
+comment2.target=void\ onData(Client,\ java.nio.ByteBuffer,\ int)
+comment3.params=
+comment3.target=boolean\ acceptsMessages()
+numComments=4

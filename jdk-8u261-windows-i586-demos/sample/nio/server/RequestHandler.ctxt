@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RequestHandler
+comment0.text=\r\n\ Primary\ driver\ class\ used\ by\ non-blocking\ Servers\ to\ receive,\r\n\ prepare,\ send,\ and\ shutdown\ requests.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=cio
+comment1.target=RequestHandler(ChannelIO)
+comment2.params=sk
+comment2.target=boolean\ receive(java.nio.channels.SelectionKey)
+comment3.params=
+comment3.target=boolean\ parse()
+comment4.params=
+comment4.target=void\ build()
+comment5.params=sk
+comment5.target=void\ handle(java.nio.channels.SelectionKey)
+comment6.params=
+comment6.target=boolean\ send()
+numComments=7

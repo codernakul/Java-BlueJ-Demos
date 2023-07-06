@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=WatchDir
+comment0.text=\r\n\ Example\ to\ watch\ a\ directory\ (or\ tree)\ for\ changes\ to\ files.\r\n
+comment1.params=event
+comment1.target=java.nio.file.WatchEvent\ cast(java.nio.file.WatchEvent)
+comment2.params=dir
+comment2.target=void\ register(java.nio.file.Path)
+comment2.text=\r\n\ Register\ the\ given\ directory\ with\ the\ WatchService\r\n
+comment3.params=start
+comment3.target=void\ registerAll(java.nio.file.Path)
+comment3.text=\r\n\ Register\ the\ given\ directory,\ and\ all\ its\ sub-directories,\ with\ the\r\n\ WatchService.\r\n
+comment4.params=dir\ attrs
+comment4.target=java.nio.file.FileVisitResult\ preVisitDirectory(java.nio.file.Path,\ java.nio.file.attribute.BasicFileAttributes)
+comment5.params=dir\ recursive
+comment5.target=WatchDir(java.nio.file.Path,\ boolean)
+comment5.text=\r\n\ Creates\ a\ WatchService\ and\ registers\ the\ given\ directory\r\n
+comment6.params=
+comment6.target=void\ processEvents()
+comment6.text=\r\n\ Process\ all\ events\ for\ keys\ queued\ to\ the\ watcher\r\n
+comment7.params=
+comment7.target=void\ usage()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

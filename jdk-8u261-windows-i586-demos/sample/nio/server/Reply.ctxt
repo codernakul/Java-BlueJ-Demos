@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Reply
+comment0.text=\r\n\ An\ object\ used\ for\ sending\ Content\ to\ the\ requestor.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=rc\ c
+comment1.target=Reply(Reply.Code,\ Content)
+comment2.params=rc\ c\ head
+comment2.target=Reply(Reply.Code,\ Content,\ Request.Action)
+comment3.params=
+comment3.target=java.nio.ByteBuffer\ headers()
+comment4.params=
+comment4.target=void\ prepare()
+comment5.params=cio
+comment5.target=boolean\ send(ChannelIO)
+comment6.params=
+comment6.target=void\ release()
+numComments=7

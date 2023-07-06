@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DiamondInheritance
+comment0.text=\r\n\ This\ sample\ diamond\ interface\ inheritance\ with\ <b>default\ methods</b>.\r\n\ If\ there's\ not\ already\ a\ unique\ method\ implementation\ to\ inherit,\r\n\ you\ must\ provide\ it.\ The\ inheritance\ diagram\ is\ similar\ to\ the\ following\:\r\n\ <pre>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Animal\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ /\ \ \ \\\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Horse\ \ \ Bird\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\\ \ \ /\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Pegasus\r\n\ </pre>\r\n\r\n\ Both\ {@link\ Horse}\ and\ {@link\ Bird}\ interfaces\ implements\ the\ <code>go</code>\r\n\ method.\ The\ {@link\ Pegasus}\ class\ have\ to\ overrides\ the\r\n\ <code>go</code>\ method.\r\n\r\n\ The\ new\ syntax\ of\ super-call\ is\ used\ here\:\r\n\ <pre>\r\n\ \ \ \ \ &lt;interface_name&gt;.super.&lt;method&gt;(...);\r\n\ \ \ \ \ For\ example\:\ \ Horse.super.go();\r\n\ </pre>\ So,\ Pegasus\ moves\ like\ a\ horse.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Illustrate\ the\ behavior\ of\ the\ {@link\ Pegasus}\ class\r\n\r\n\ @param\ args\ command\ line\ arguments\r\n
+numComments=2

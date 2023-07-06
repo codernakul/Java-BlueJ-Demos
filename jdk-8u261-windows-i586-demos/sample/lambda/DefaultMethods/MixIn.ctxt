@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MixIn
+comment0.text=\r\n\ The\ example\ illustrates\ how\ to\ use\ the\ default\ method\ for\ mixin.\r\n\ @see\ BuildType\r\n\ @see\ Debuggable\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Illustrate\ the\ behavior\ of\ the\ MixClass\r\n\r\n\ @param\ args\ command-line\ arguments\r\n\ @throws\ java.io.IOException\ internal\ demo\ error\r\n
+numComments=2

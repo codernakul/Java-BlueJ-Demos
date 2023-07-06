@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: Ensemble
+Implementation-Version: 1.0
+Permissions: sandbox
+JavaFX-Version: 8.0
+Created-By: JavaFX Packager
+Implementation-Vendor: Oracle
+Main-Class: ensemble.EnsembleApp
+

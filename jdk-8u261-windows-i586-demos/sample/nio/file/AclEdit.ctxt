@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=AclEdit
+comment0.text=\r\n\ Sample\ utility\ for\ editing\ a\ file's\ ACL.\r\n
+comment1.params=permsString
+comment1.target=java.util.Set\ parsePermissions(java.lang.String)
+comment2.params=flagsString
+comment2.target=java.util.Set\ parseFlags(java.lang.String)
+comment3.params=typeString
+comment3.target=java.nio.file.attribute.AclEntryType\ parseType(java.lang.String)
+comment4.params=s\ lookupService
+comment4.target=java.nio.file.attribute.AclEntry\ parseAceString(java.lang.String,\ java.nio.file.attribute.UserPrincipalLookupService)
+comment4.text=\r\n\ Parse\ string\ of\ the\ form\:\r\n\ \ \ [user|group\:]<username|groupname>\:<perms>[\:flags]\:<allow|deny>\r\n
+comment5.params=
+comment5.target=void\ usage()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ Main\ class\:\ parses\ arguments\ and\ prints\ or\ edits\ ACL\r\n
+numComments=7

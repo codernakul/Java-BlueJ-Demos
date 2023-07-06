@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FileContent
+comment0.text=\r\n\ A\ Content\ type\ that\ provides\ for\ transferring\ files.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=uri
+comment1.target=FileContent(java.net.URI)
+comment2.params=
+comment2.target=java.lang.String\ type()
+comment3.params=
+comment3.target=long\ length()
+comment4.params=
+comment4.target=void\ prepare()
+comment5.params=cio
+comment5.target=boolean\ send(ChannelIO)
+comment6.params=
+comment6.target=void\ release()
+numComments=7

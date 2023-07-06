@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Request
+comment0.text=\r\n\ An\ encapsulation\ of\ the\ request\ received.\r\n\ <P>\r\n\ The\ static\ method\ parse()\ is\ responsible\ for\ creating\ this\r\n\ object.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=
+comment1.target=Request.Action\ action()
+comment2.params=
+comment2.target=java.lang.String\ version()
+comment3.params=
+comment3.target=java.net.URI\ uri()
+comment4.params=a\ v\ u
+comment4.target=Request(Request.Action,\ java.lang.String,\ java.net.URI)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=bb
+comment6.target=boolean\ isComplete(java.nio.ByteBuffer)
+comment7.params=bb
+comment7.target=Request\ parse(java.nio.ByteBuffer)
+numComments=8

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Acceptor
+comment0.text=\r\n\ A\ Runnable\ class\ which\ sits\ in\ a\ loop\ accepting\ SocketChannels,\r\n\ then\ registers\ the\ Channels\ with\ the\ read/write\ Selector.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=ssc\ d\ sslContext
+comment1.target=Acceptor(java.nio.channels.ServerSocketChannel,\ Dispatcher,\ javax.net.ssl.SSLContext)
+comment2.params=
+comment2.target=void\ run()
+numComments=3

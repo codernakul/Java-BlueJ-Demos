@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=DispatcherN
+comment0.text=\r\n\ A\ Multi-threaded\ dispatcher.\r\n\ <P>\r\n\ In\ this\ example,\ one\ thread\ does\ accepts,\ and\ the\ second\r\n\ does\ read/writes.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=
+comment1.target=DispatcherN()
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ dispatch()
+comment4.params=ch\ ops\ h
+comment4.target=void\ register(java.nio.channels.SelectableChannel,\ int,\ Handler)
+numComments=5

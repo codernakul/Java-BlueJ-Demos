@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=NameReader
+comment0.text=\r\n\ The\ first\ state\ a\ newly\ connected\ {@code\ Client}\ is\ in,\ this\r\n\ handles\ writing\ out\ the\ welcoming\ message\ and\ reads\ the\ response\r\n\ up\ to\ a\ newline.\ When\ a\ newline\ character\ have\ been\ received\r\n\ it\ changes\ the\ handler\ from\ NameReader\ to\ MessageReader\ on\ the\r\n\ client.\r\n
+comment1.params=chatServer
+comment1.target=NameReader(ChatServer)
+comment2.params=client
+comment2.target=void\ beforeRead(Client)
+comment2.text=\r\n\ Writes\ the\ welcoming\ message\ to\ the\ client\ the\ first\ time\ this\ method\r\n\ is\ called.\r\n\r\n\ @param\ client\ the\ client\ to\ receive\ the\ message\r\n
+comment3.params=
+comment3.target=boolean\ acceptsMessages()
+comment4.params=client\ buffer\ bytes
+comment4.target=void\ onData(Client,\ java.nio.ByteBuffer,\ int)
+comment4.text=\r\n\ Receives\ incoming\ data\ from\ the\ socket,\ searches\ for\ a\ newline\r\n\ and\ tries\ to\ set\ the\ username\ if\ one\ is\ found\r\n
+comment5.params=client\ name
+comment5.target=void\ onUserNameRead(Client,\ java.lang.String)
+comment5.text=\r\n\ Splits\ the\ name\ on\ the\ newlines,\ takes\ the\ first\ as\ the\ username\r\n\ and\ appends\ everything\ else\ to\ the\ clients\ message\ buffer.\r\n\ Sets\ the\ clients\ handler\ to\ MessageReader.\r\n\r\n\ @param\ client\ the\ client\ to\ set\ the\ username\ for\r\n\ @param\ name\ the\ string\ containing\ the\ buffered\ input\r\n
+comment6.params=client\ strings
+comment6.target=void\ sendRemainingParts(Client,\ java.lang.String[])
+comment6.text=\r\n\ Appends\ the\ remaining\ parts\ to\ the\ clients\ message\ buffer\r\n\r\n\ @param\ client\ the\ client\r\n\ @param\ strings\ the\ messages\ to\ append\ to\ the\ buffer\r\n
+numComments=7

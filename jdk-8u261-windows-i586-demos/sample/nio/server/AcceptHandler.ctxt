@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=AcceptHandler
+comment0.text=\r\n\ A\ single\ threaded\ Handler\ that\ performs\ accepts\ SocketChannels\ and\r\n\ registers\ the\ Channels\ with\ the\ read/write\ Selector.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=ssc\ dsp\ sslContext
+comment1.target=AcceptHandler(java.nio.channels.ServerSocketChannel,\ Dispatcher,\ javax.net.ssl.SSLContext)
+comment2.params=sk
+comment2.target=void\ handle(java.nio.channels.SelectionKey)
+numComments=3

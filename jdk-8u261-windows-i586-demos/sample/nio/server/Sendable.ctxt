@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Sendable
+comment0.text=\r\n\ Method\ definitions\ used\ for\ preparing,\ sending,\ and\ release\r\n\ content.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=
+comment1.target=void\ prepare()
+comment2.params=cio
+comment2.target=boolean\ send(ChannelIO)
+comment3.params=
+comment3.target=void\ release()
+numComments=4

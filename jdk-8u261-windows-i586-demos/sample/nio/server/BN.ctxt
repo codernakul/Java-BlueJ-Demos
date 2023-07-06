@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=BN
+comment0.text=\r\n\ A\ Blocking/Multi-threaded\ Server\ which\ creates\ a\ new\ thread\ for\ each\r\n\ connection.\ \ This\ is\ not\ efficient\ for\ large\ numbers\ of\ connections.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=port\ backlog\ secure
+comment1.target=BN(int,\ int,\ boolean)
+comment2.params=
+comment2.target=void\ runServer()
+numComments=3

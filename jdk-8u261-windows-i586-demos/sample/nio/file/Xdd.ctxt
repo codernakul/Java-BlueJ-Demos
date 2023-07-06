@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Xdd
+comment0.text=\r\n\ Example\ code\ to\ list/set/get/delete\ the\ user-defined\ attributes\ of\ a\ file.\r\n
+comment1.params=
+comment1.target=void\ usage()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

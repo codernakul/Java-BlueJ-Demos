@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Content
+comment0.text=\r\n\ An\ Sendable\ interface\ extension\ that\ adds\ additional\r\n\ methods\ for\ additional\ information,\ such\ as\ Files\r\n\ or\ Strings.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=
+comment1.target=java.lang.String\ type()
+comment2.params=
+comment2.target=long\ length()
+numComments=3

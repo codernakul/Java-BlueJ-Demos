@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=N1
+comment0.text=\r\n\ A\ non-blocking/single-threaded\ server.\ \ All\ accept()\ and\r\n\ read()/write()\ operations\ are\ performed\ by\ a\ single\ thread,\ but\ only\r\n\ after\ being\ selected\ for\ those\ operations\ by\ a\ Selector.\r\n\r\n\ @author\ Mark\ Reinhold\r\n\ @author\ Brad\ R.\ Wetmore\r\n
+comment1.params=port\ backlog\ secure
+comment1.target=N1(int,\ int,\ boolean)
+comment2.params=
+comment2.target=void\ runServer()
+numComments=3

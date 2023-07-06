@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ArrayIterator
+comment0.text=\r\n\ The\ code\ sample\ illustrates\ the\ usage\ of\ default\ methods\ in\ the\ JDK\ 8.\ Most\r\n\ implementations\ of\ {@link\ Iterator}\ don't\ provide\ a\ useful\r\n\ {@link\ Iterator\#remove()}\ method,\ however,\r\n\ they\ still\ have\ to\ implement\ this\ method\ to\ throw\r\n\ an\ UnsupportedOperationException.\ With\ the\ default\ method,\ the\ same\r\n\ default\ behavior\ in\ interface\ Iterator\ itself\ can\ be\ provided.\r\n
+comment1.params=
+comment1.target=ArrayIterator()
+comment1.text=\ Close\ the\ constructor\ because\ ArrayIterator\ is\ part\ of\ the\ utility\r\n\ class.\r\n
+comment2.params=array
+comment2.target=java.util.Iterator\ iterator(java.lang.Object[])
+comment2.text=\r\n\ Returns\ an\ iterator\ that\ goes\ over\ the\ elements\ in\ the\ array.\r\n\r\n\ @param\ <E>\ type\ of\ an\ array\ element\r\n\ @param\ array\ source\ array\ to\ iterate\ over\ it\r\n\ @return\ an\ iterator\ that\ goes\ over\ the\ elements\ in\ the\ array\r\n
+comment3.params=
+comment3.target=boolean\ hasNext()
+comment3.text=\r\n\ Returns\ the\ next\ element\ in\ the\ iteration\r\n\r\n\ @return\ the\ next\ element\ in\ the\ iteration\r\n\ @throws\ NoSuchElementException\ if\ the\ iteration\ has\ no\ more\r\n\ elements\r\n
+comment4.params=
+comment4.target=java.lang.Object\ next()
+comment4.text=\r\n\ Returns\ {@code\ true}\ if\ the\ iteration\ has\ more\ elements.\ (In\r\n\ other\ words,\ returns\ {@code\ true}\ if\ {@link\ \#next}\ returns\r\n\ an\ element,\ rather\ than\ throwing\ an\ exception.)\r\n\r\n\ @return\ {@code\ true}\ if\ the\ iteration\ has\ more\ elements\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ Sample\ usage\ of\ the\ ArrayIterator\r\n\r\n\ @param\ args\ command-line\ arguments\r\n
+numComments=6
